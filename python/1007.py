@@ -1,3 +1,3 @@
-A, B, C, D = map(int, input().split(" "))
+A, B, C, D = int(input())
 diferenca = (A * B - C * D)
 print('DIFERENÇA = {}'.format(diferenca))
